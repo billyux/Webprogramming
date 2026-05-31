@@ -1,0 +1,13 @@
+<h1 id="title">스타일 변경 예제</h1>
+<button id="styleButton">스타일 바꾸기</button>
+
+<script>
+let title = document.getElementById("title");
+let button = document.getElementById("styleButton");
+
+button.addEventListener("click", function() {
+    title.style.color = "white";
+    title.style.backgroundColor = "blue";
+    title.style.padding = "10px";
+});
+</script>
